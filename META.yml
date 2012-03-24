@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Bot-BasicBot-Pluggable-Module-Shutdown
-version:            0.02
+version:            0.03
 abstract:           Disconnects from IRC and shuts down bot process gracefully.
 author:
     - Michael Alexander <omni@cpan.org>

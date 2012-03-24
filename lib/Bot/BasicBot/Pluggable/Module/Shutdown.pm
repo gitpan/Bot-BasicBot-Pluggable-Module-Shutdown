@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use parent 'Bot::BasicBot::Pluggable::Module';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 sub help {
@@ -12,7 +12,7 @@ sub help {
 "Disconnects from IRC and shuts down bot process gracefully. Command must be issued as a private message or query in IRC. Requires !auth. Usage: !shutdown";
 }
 
-sub told {
+sub said {
     my ( $self, $mess ) = @_;
     my $body = $mess->{body};
     my $who  = $mess->{who};
