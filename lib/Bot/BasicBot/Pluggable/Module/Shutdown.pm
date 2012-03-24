@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use parent 'Bot::BasicBot::Pluggable::Module';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 sub help {
@@ -19,7 +19,7 @@ sub told {
     my $address = $mess->{address};
 
     # we don't care unless in /query
-    return unless defined $address;
+    return unless defined $address && $address eq "msg";
 
     # we don't care unless command is '!shutdown'
     return 0 unless defined $body;

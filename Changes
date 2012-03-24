@@ -1,5 +1,6 @@
 Revision history for Bot-BasicBot-Pluggable-Module-Shutdown
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
-
+0.02    March 24, 2012
+        Fixed requirement for /query. Fixed  Makefile.PL to declare B::BB::P::M as dependency.
+0.01    March 23, 2012
+        First,  version, released on an unsuspecting world.
